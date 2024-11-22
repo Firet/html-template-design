@@ -5,3 +5,15 @@
   min-height: 230px;
   min-width: 360px;
 }
+
+.card-content-container {
+  height: 180px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}

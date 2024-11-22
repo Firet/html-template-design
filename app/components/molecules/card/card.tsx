@@ -1,3 +1,4 @@
+import Button from "../button/button";
 import "./card.css";
 
 interface CardProps {
@@ -21,13 +22,19 @@ export default function card({
 }: CardProps) {
   return (
     <section className="card">
-      <h3>name: {name}</h3>
-      <h3>description: {description}</h3>
-      <h3>image: {image}</h3>
-      <h3>game: {game}</h3>
-      <h3>price: {price}</h3>
-      <h3>previousPrice: {previousPrice}</h3>
-      <h3>{onSale ? "On Sale" : null}</h3>
+      <div className="card-content-container">
+        <h3>name: {name}</h3>
+        <h3>description: {description}</h3>
+        <h3>image: {image}</h3>
+        <h3>game: {game}</h3>
+        <h3>price: {price}</h3>
+        <h3>previousPrice: {previousPrice}</h3>
+        <h3>{onSale ? "On Sale" : null}</h3>
+      </div>
+      <div className="button-container">
+        <Button>Details</Button>
+        <Button>Add</Button>
+      </div>
     </section>
   );
 }

@@ -13,7 +13,7 @@ const videogameItemCards: videogameItemCard[] = [
   {
     id: 1,
     name: "Lion Heart",
-    description: "Squall most wanted gun blade",
+    description: "Dolor isus it sen afec tor",
     image: "./lion-heart.png",
     game: "Final Fantasy VIII",
     price: 3.0,
@@ -23,7 +23,7 @@ const videogameItemCards: videogameItemCard[] = [
   {
     id: 2,
     name: "Ehrgeiz",
-    description: "Bst Zell gloves all over the world",
+    description: "Dolor isus it sen afec tor",
     image: "./ehrgeiz.png",
     game: "Final Fantasy VIII",
     price: 3.0,
@@ -33,7 +33,7 @@ const videogameItemCards: videogameItemCard[] = [
   {
     id: 2,
     name: "Ehrgeiz",
-    description: "Bst Zell gloves all over the world",
+    description: "Dolor isus it sen afec tor",
     image: "./ehrgeiz.png",
     game: "Final Fantasy VIII",
     price: 3.0,
@@ -43,7 +43,7 @@ const videogameItemCards: videogameItemCard[] = [
   {
     id: 2,
     name: "Ehrgeiz",
-    description: "Bst Zell gloves all over the world",
+    description: "Dolor isus it sen afec tor",
     image: "./ehrgeiz.png",
     game: "Final Fantasy VIII",
     price: 3.0,
@@ -53,7 +53,7 @@ const videogameItemCards: videogameItemCard[] = [
   {
     id: 2,
     name: "Ehrgeiz",
-    description: "Bst Zell gloves all over the world",
+    description: "Dolor isus it sen afec tor",
     image: "./ehrgeiz.png",
     game: "Final Fantasy VIII",
     price: 3.0,
@@ -63,7 +63,7 @@ const videogameItemCards: videogameItemCard[] = [
   {
     id: 1,
     name: "Lion Heart",
-    description: "Squall most wanted gun blade",
+    description: "Dolor isus it sen afec tor",
     image: "./lion-heart.png",
     game: "Final Fantasy VIII",
     price: 3.0,
@@ -74,7 +74,7 @@ const videogameItemCards: videogameItemCard[] = [
   {
     id: 1,
     name: "Lion Heart",
-    description: "Squall most wanted gun blade",
+    description: "Dolor isus it sen afec tor",
     image: "./lion-heart.png",
     game: "Final Fantasy VIII",
     price: 3.0,
@@ -85,7 +85,7 @@ const videogameItemCards: videogameItemCard[] = [
   {
     id: 1,
     name: "Lion Heart",
-    description: "Squall most wanted gun blade",
+    description: "Dolor isus it sen afec tor",
     image: "./lion-heart.png",
     game: "Final Fantasy VIII",
     price: 3.0,
@@ -96,7 +96,7 @@ const videogameItemCards: videogameItemCard[] = [
   {
     id: 1,
     name: "Lion Heart",
-    description: "Squall most wanted gun blade",
+    description: "Dolor isus it sen afec tor",
     image: "./lion-heart.png",
     game: "Final Fantasy VIII",
     price: 3.0,
@@ -107,7 +107,7 @@ const videogameItemCards: videogameItemCard[] = [
   {
     id: 1,
     name: "Lion Heart",
-    description: "Squall most wanted gun blade",
+    description: "Dolor isus it sen afec tor",
     image: "./lion-heart.png",
     game: "Final Fantasy VIII",
     price: 3.0,
@@ -118,7 +118,7 @@ const videogameItemCards: videogameItemCard[] = [
   {
     id: 1,
     name: "Lion Heart",
-    description: "Squall most wanted gun blade",
+    description: "Dolor isus it sen afec tor",
     image: "./lion-heart.png",
     game: "Final Fantasy VIII",
     price: 3.0,
