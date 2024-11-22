@@ -1,5 +1,6 @@
 import Card from "@/app/components/molecules/card/card";
 import videogameItemCards from "@/app/constants/videogame-item-card/videogame-item-card";
+import "./card-container.css";
 
 export default function CardContainer() {
   videogameItemCards;

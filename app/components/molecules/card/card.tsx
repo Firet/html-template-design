@@ -1,3 +1,5 @@
+import "./card.css";
+
 interface CardProps {
   name: string;
   description: string;
@@ -25,7 +27,7 @@ export default function card({
       <h3>game: {game}</h3>
       <h3>price: {price}</h3>
       <h3>previousPrice: {previousPrice}</h3>
-      <h3>onSale: {onSale}</h3>
+      <h3>{onSale ? "On Sale" : null}</h3>
     </section>
   );
 }

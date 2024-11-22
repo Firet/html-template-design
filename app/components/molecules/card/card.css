@@ -1,0 +1,7 @@
+.card {
+  /* display: flex; */
+  background: var(--secondary) no-repeat padding-box;
+  border-radius: 5px;
+  padding: 15px 10px;
+  width: 90%;
+}
