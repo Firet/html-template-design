@@ -1,7 +1,13 @@
-export default function card() {
+interface CardProps {
+  name: string;
+  description: string;
+}
+
+export default function card({ name, description }: CardProps) {
   return (
     <section className="card">
-      <p>card</p>
+      <h3>name: {name}</h3>
+      <h3>description: {description}</h3>
     </section>
   );
 }

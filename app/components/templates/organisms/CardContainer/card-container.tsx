@@ -6,11 +6,13 @@ export default function CardContainer() {
   return (
     <section className="card-container">
       <p>Card Container</p>
-      {/* <Card /> */}
       <ul className="videogameitem-list">
         {videogameItemCards.map((videogameItemCard) => (
-          <li key={videogameItemCard.id} className="card-item">
-            {videogameItemCard.description}
+          <li>
+            <Card
+              name={videogameItemCard.name}
+              description={videogameItemCard.description}
+            />
           </li>
         ))}
       </ul>
