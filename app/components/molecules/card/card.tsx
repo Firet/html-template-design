@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Button from "../button/button";
 import "./card.css";
 
@@ -26,6 +27,14 @@ export default function card({
         <h3>name: {name}</h3>
         <h3>description: {description}</h3>
         <h3>image: {image}</h3>
+        <Image
+          src={image}
+          alt="Video-game Item"
+          className="item-image"
+          unoptimized
+          width={50}
+          height={50}
+        />
         <h3>game: {game}</h3>
         <h3>price: {price}</h3>
         <h3>previousPrice: {previousPrice}</h3>
