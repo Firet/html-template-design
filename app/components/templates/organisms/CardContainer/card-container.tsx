@@ -12,6 +12,11 @@ export default function CardContainer() {
             <Card
               name={videogameItemCard.name}
               description={videogameItemCard.description}
+              image={videogameItemCard.image}
+              game={videogameItemCard.game}
+              price={videogameItemCard.price}
+              previousPrice={videogameItemCard.previousPrice}
+              onSale={videogameItemCard.onSale}
             />
           </li>
         ))}
