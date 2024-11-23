@@ -7,15 +7,21 @@
 }
 
 .card-content-container {
-  background-color: red;
+  background-color: blue;
   height: 240px;
 }
 
+.strikethrough {
+  color: red;
+}
+
+.previous-price {
+  color: white;
+}
+
 .button-container {
-  background-color: red;
+  background-color: blue;
   display: flex;
   justify-content: space-around;
-  width: 80%;
-  margin: 0 auto;
   margin-top: 10px;
 }

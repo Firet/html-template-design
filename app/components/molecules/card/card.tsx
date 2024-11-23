@@ -24,9 +24,7 @@ export default function card({
   return (
     <section className="card">
       <div className="card-content-container">
-        <h3>name: {name}</h3>
-        <h3>description: {description}</h3>
-        <h3>image: {image}</h3>
+        <h6>{onSale ? "On Sale" : null}</h6>
         <Image
           src={image}
           alt="Video-game Item"
@@ -35,10 +33,22 @@ export default function card({
           width={50}
           height={50}
         />
-        <h3>game: {game}</h3>
-        <h3>price: {price}</h3>
-        <h3>previousPrice: {previousPrice}</h3>
-        <h3>{onSale ? "On Sale" : null}</h3>
+        <Image
+          src={game}
+          alt="Game Logo"
+          className="game-image"
+          unoptimized
+          width={50}
+          height={50}
+        />
+        <h6>{name}</h6>
+        <h6>price: {price}</h6>
+        <del className="strikethrough">
+          <h6 className="previous-price">
+            {previousPrice ? previousPrice : null}
+          </h6>
+        </del>
+        <h6>{description}</h6>
       </div>
       <div className="button-container">
         <Button>Details</Button>
