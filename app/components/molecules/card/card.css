@@ -2,6 +2,32 @@
   background: var(--secondary) no-repeat padding-box;
   border-radius: 5px;
   padding: 15px 10px;
-  min-height: 230px;
-  min-width: 360px;
+  min-height: 300px;
+  min-width: 210px;
+}
+
+.card-content-container {
+  background-color: blue;
+  height: 240px;
+}
+
+.amount-input {
+  background-color: var(--primary);
+  color: grey;
+  width: 20%;
+}
+
+.strikethrough {
+  color: red;
+}
+
+.previous-price {
+  color: white;
+}
+
+.button-container {
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
 }
