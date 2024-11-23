@@ -31,7 +31,7 @@ const videogameItemCards: videogameItemCard[] = [
     onSale: false,
   },
   {
-    id: 2,
+    id: 3,
     name: "stormshield",
     description: "Dolor isus it sen afec tor",
     image: "./stormshield.png",
@@ -41,7 +41,7 @@ const videogameItemCards: videogameItemCard[] = [
     onSale: false,
   },
   {
-    id: 2,
+    id: 4,
     name: "stormshield",
     description: "Dolor isus it sen afec tor",
     image: "./stormshield.png",
@@ -51,7 +51,7 @@ const videogameItemCards: videogameItemCard[] = [
     onSale: false,
   },
   {
-    id: 2,
+    id: 5,
     name: "stormshield",
     description: "Dolor isus it sen afec tor",
     image: "./stormshield.png",
@@ -61,7 +61,7 @@ const videogameItemCards: videogameItemCard[] = [
     onSale: false,
   },
   {
-    id: 1,
+    id: 6,
     name: "Lion Heart",
     description: "Dolor isus it sen afec tor",
     image: "./chrysomallos.png",
@@ -72,7 +72,7 @@ const videogameItemCards: videogameItemCard[] = [
   },
 
   {
-    id: 1,
+    id: 7,
     name: "Lion Heart",
     description: "Dolor isus it sen afec tor",
     image: "./chrysomallos.png",
@@ -83,7 +83,7 @@ const videogameItemCards: videogameItemCard[] = [
   },
 
   {
-    id: 1,
+    id: 8,
     name: "Lion Heart",
     description: "Dolor isus it sen afec tor",
     image: "./chrysomallos.png",
@@ -94,7 +94,7 @@ const videogameItemCards: videogameItemCard[] = [
   },
 
   {
-    id: 1,
+    id: 9,
     name: "Lion Heart",
     description: "Dolor isus it sen afec tor",
     image: "./chrysomallos.png",
@@ -105,7 +105,7 @@ const videogameItemCards: videogameItemCard[] = [
   },
 
   {
-    id: 1,
+    id: 10,
     name: "Lion Heart",
     description: "Dolor isus it sen afec tor",
     image: "./chrysomallos.png",
@@ -116,7 +116,7 @@ const videogameItemCards: videogameItemCard[] = [
   },
 
   {
-    id: 1,
+    id: 11,
     name: "Lion Heart",
     description: "Dolor isus it sen afec tor",
     image: "./chrysomallos.png",

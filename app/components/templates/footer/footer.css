@@ -1,3 +1,35 @@
 .footer {
   background-color: var(--secondary);
 }
+
+.footer-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer-logos-section {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright-section {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    height: 600px;
+    width: 100%;
+  }
+  .footer-nav-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+}
