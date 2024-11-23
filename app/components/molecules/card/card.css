@@ -11,6 +11,12 @@
   height: 240px;
 }
 
+.amount-input {
+  background-color: var(--primary);
+  color: grey;
+  width: 20%;
+}
+
 .strikethrough {
   color: red;
 }

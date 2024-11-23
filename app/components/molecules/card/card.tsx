@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Button from "../button/button";
 import "./card.css";
+import Input from "../input/input";
 
 interface CardProps {
   name: string;
@@ -24,6 +25,7 @@ export default function card({
   return (
     <section className="card">
       <div className="card-content-container">
+        <Input type="number" className="amount-input" value="1"></Input>
         <h6>{onSale ? "On Sale" : null}</h6>
         <Image
           src={image}
