@@ -25,8 +25,13 @@ export default function card({
   return (
     <section className="card">
       <div className="card-content-container">
-        <Input type="number" className="amount-input" value="1"></Input>
-        <h6>{onSale ? "On Sale" : null}</h6>
+        <div className="amount-and-sale-row">
+          <div>
+            <p>{onSale ? "On Sale" : null}</p>
+            <p>In Stock</p>
+          </div>
+          <Input type="number" className="amount-input" value="1"></Input>
+        </div>
         <Image
           src={image}
           alt="Video-game Item"
@@ -43,16 +48,16 @@ export default function card({
           width={50}
           height={50}
         />
-        <h6>{name}</h6>
+        <p>{name}</p>
         <div className="price-section">
-          <h6 className="actual-price">${price}</h6>
+          <p className="actual-price">${price}</p>
           <del className="strikethrough">
-            <h6 className="previous-price">
+            <p className="previous-price">
               {previousPrice ? `$ ${previousPrice}` : null}
-            </h6>
+            </p>
           </del>
         </div>
-        <h6>{description}</h6>
+        <p>{description}</p>
       </div>
       <div className="button-container">
         <Button>Details</Button>
