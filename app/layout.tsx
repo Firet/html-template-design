@@ -7,7 +7,7 @@ import Footer from "./components/templates/footer/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Templete Design",
+  title: "Chicks Gold",
   description: "Just a simple html design",
 };
 
