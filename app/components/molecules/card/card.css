@@ -17,6 +17,15 @@
   width: 20%;
 }
 
+.price-section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.actual-price {
+  margin-right: 10px;
+}
+
 .strikethrough {
   color: red;
 }

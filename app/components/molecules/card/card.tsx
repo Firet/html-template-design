@@ -44,12 +44,14 @@ export default function card({
           height={50}
         />
         <h6>{name}</h6>
-        <h6>price: {price}</h6>
-        <del className="strikethrough">
-          <h6 className="previous-price">
-            {previousPrice ? previousPrice : null}
-          </h6>
-        </del>
+        <div className="price-section">
+          <h6 className="actual-price">${price}</h6>
+          <del className="strikethrough">
+            <h6 className="previous-price">
+              {previousPrice ? `$ ${previousPrice}` : null}
+            </h6>
+          </del>
+        </div>
         <h6>{description}</h6>
       </div>
       <div className="button-container">
