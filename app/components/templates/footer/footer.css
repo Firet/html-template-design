@@ -12,6 +12,11 @@
   justify-content: center;
 }
 
+.footer-social-media-section {
+  display: flex;
+  justify-content: center;
+}
+
 .footer-nav-section {
   display: flex;
   justify-content: space-around;
