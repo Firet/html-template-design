@@ -23,6 +23,11 @@
   margin-right: 0;
 }
 
+.cart {
+  margin-left: 0;
+  margin-right: 10px;
+}
+
 .user-section {
   display: flex;
   justify-content: space-evenly;
