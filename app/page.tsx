@@ -1,4 +1,4 @@
-import CardContainer from "./components/templates/organisms/CardContainer/card-container";
+import CardContainer from "./components/organisms/CardContainer/card-container";
 
 export default function Home() {
   return (
