@@ -3,13 +3,16 @@
 }
 
 .footer-container {
-  width: 70%;
-  margin: 0 auto;
+  width: 90%;
 }
 
 .footer-logos-section {
   display: flex;
   justify-content: center;
+}
+
+.chick-logo {
+  margin-bottom: 10px;
 }
 
 .footer-social-media-section {
@@ -20,6 +23,8 @@
 .footer-nav-section {
   display: flex;
   justify-content: space-around;
+  padding-top: 40px;
+  margin-bottom: 40px;
 }
 
 .copyright-section {

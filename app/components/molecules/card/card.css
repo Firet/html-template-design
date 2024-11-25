@@ -27,6 +27,7 @@
   background-color: var(--blue);
   color: grey;
   width: 20%;
+  height: 30px;
 }
 
 .price-section {
