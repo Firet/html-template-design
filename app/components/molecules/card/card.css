@@ -3,18 +3,39 @@
   border-radius: 5px;
   padding: 15px 10px;
   min-height: 300px;
-  min-width: 210px;
+  width: 200px;
 }
 
 .card-content-container {
-  background-color: blue;
+  background-color: var(--secondary);
   height: 240px;
 }
 
+.amount-and-sale-row {
+  display: flex;
+  justify-content: space-between;
+  /* width: 140px; */
+}
+
+.name-and-game-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .amount-input {
-  background-color: var(--primary);
+  background-color: var(--blue);
   color: grey;
   width: 20%;
+}
+
+.price-section {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.actual-price {
+  margin-right: 10px;
 }
 
 .strikethrough {
@@ -26,8 +47,8 @@
 }
 
 .button-container {
-  background-color: blue;
+  background-color: var(--ternary);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 10px;
 }

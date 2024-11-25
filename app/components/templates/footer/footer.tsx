@@ -5,7 +5,8 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-logos-section">Firm Logos </div>
+        <div className="footer-logos-section">Firm Logos</div>
+        <div className="footer-social-media-section">Social Media</div>
         <div className="footer-nav-section">
           <div className="nav-column">
             <Image
