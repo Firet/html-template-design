@@ -37,18 +37,20 @@ export default function card({
           alt="Video-game Item"
           className="item-image"
           unoptimized
-          width={50}
-          height={50}
+          width={65}
+          height={65}
         />
-        <Image
-          src={game}
-          alt="Game Logo"
-          className="game-image"
-          unoptimized
-          width={50}
-          height={50}
-        />
-        <p>{name}</p>
+        <div className="name-and-game-row">
+          <p>{name}</p>
+          <Image
+            src={game}
+            alt="Game Logo"
+            className="game-image"
+            unoptimized
+            width={35}
+            height={35}
+          />
+        </div>
         <div className="price-section">
           <p className="actual-price">${price}</p>
           <del className="strikethrough">

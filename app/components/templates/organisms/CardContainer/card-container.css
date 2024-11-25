@@ -3,7 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--indigo);
+  background-color: var(--ternary);
+  border: 1px solid var(--blue);
+  border-radius: 5px;
   width: 90%;
   padding: 5px;
   margin: 0 auto;
