@@ -6,7 +6,7 @@ export default function CardContainer() {
   videogameItemCards;
   return (
     <section className="card-container">
-      <p>Showing 20 - from 125</p>
+      <p>Showing 11 - from 125</p>
       <ul className="videogameitem-list">
         {videogameItemCards.map((videogameItemCard) => (
           <li>

@@ -62,8 +62,8 @@ export default function card({
         <p>{description}</p>
       </div>
       <div className="button-container">
-        <Button>Details</Button>
-        <Button priority="primary">Add</Button>
+        <Button>DETAILS</Button>
+        <Button priority="primary">ADD</Button>
       </div>
     </section>
   );

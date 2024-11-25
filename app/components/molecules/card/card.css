@@ -3,7 +3,7 @@
   border-radius: 5px;
   padding: 15px 10px;
   min-height: 300px;
-  width: 200px;
+  width: 250px;
 }
 
 .card-content-container {
@@ -47,7 +47,6 @@
 }
 
 .button-container {
-  background-color: var(--ternary);
   display: flex;
   justify-content: space-between;
   margin-top: 10px;

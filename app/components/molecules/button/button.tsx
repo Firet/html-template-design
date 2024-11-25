@@ -14,7 +14,7 @@ export default function Button({
   return (
     <button
       className={c(
-        "rounded-md border px-4 py-2.5 transition-all font-medium",
+        "rounded-md border px-4 py-2.5 transition-all font-mediu w-28",
         priority === "primary"
           ? "primary"
           : priority === "accent"
