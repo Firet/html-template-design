@@ -1,0 +1,14 @@
+
+
+.primary {
+    background-color: var(--primary);
+}
+
+.accent {
+    background-color: var(--accent);
+    color: var(--secondary);
+}
+
+.default {
+    background-color: var(--saturated-blue);
+}

@@ -8,7 +8,9 @@
   --primary: #5762d5;
   --secondary: #33384b;
   --ternary: #303241;
+  --accent: #2ec88c;
   --blue: #474c5f;
+  -saturated-blue: #5465cf;
   --indigo: #6610f2;
   --purple: #6f42c1;
 }
